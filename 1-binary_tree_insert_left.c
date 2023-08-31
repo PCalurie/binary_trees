@@ -34,4 +34,4 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 		parent->left->parent = new;
 	/* Set the new node as the left child of the parent */
 	parent->left = new;
-	return new;
+	return (new);
